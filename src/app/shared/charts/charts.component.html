@@ -1,3 +1,10 @@
-<p>
-  charts works!
-</p>
+<div>
+  <div class="chart container" style="display: block">
+    <canvas baseChart
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType">
+    </canvas>
+  </div>
+</div>
